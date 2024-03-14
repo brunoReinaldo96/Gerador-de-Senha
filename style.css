@@ -308,6 +308,17 @@ main{
    .box .password .actions img{
       width: 24px;
    }
+   .actions-checkbox .actions {
+         display: flex;
+         flex-direction: column;
+         padding: 2px;
+     }
+     .password-length {
+         order: 1; 
+     }
+     .config {
+         order: 2; 
+     }
+   }
    
 
-}
