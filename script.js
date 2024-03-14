@@ -107,7 +107,7 @@ function calculateFontSize(){
       inputEl.classList.remove("font-sm")
       inputEl.classList.add("font-xs")
       inputEl.classList.remove("font-xxs")
-   }else if(passwordLength>9){
+   }else if(passwordLength>3){
       inputEl.classList.add("font-sm")
       inputEl.classList.remove("font-xs")
       inputEl.classList.remove("font-xxs")
